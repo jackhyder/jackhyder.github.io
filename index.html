@@ -1,36 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Title of Your Page</title>
+    <title>Jack Hyder</title>
     <meta name="description" content="This will be the smaller text on Google search results under your page. Make it under 140 characters.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-control" content="public">
     <link rel="stylesheet" type="text/css" href="media/style.css">
-    <link rel="icon" type="image/png" href="media/icon.png">
+    <link rel="icon" href="image/png" href="media/images/icon.png">
     <script src="javascript/main.js"></script>
 </head>
 <body>
-    <main>
-        <section>
-            <h1>About Me</h1>
+    <header class="page_header">
+
+    </header>
+    <main class="main">
+        <section class="about_section">
+            <header class="about_me">
+                <h1>About Me</h1>
+                <p>
+                    I have been an experimenter and tinkerer for my entire life. I tried a career in biochemistry, 
+                    but after some time I realized my true calling was with software and web engineering.
+                </p>
+                <p>
+                    In late 2016 I decided to take the plunge and put myself on a fast track to learn the skills I would need
+                    to transfer into a brand new industry. I attended the Coding Dojo in Bellevue, WA where I launched into a 
+                    fast-paced and immersive introduction to Web Development. Focusing on 3 languages, I learned the essentials 
+                    of algorithms, MVC patterns, and full stack applications.
+                </p>
+                <p>
+                    I now spend my time honing my skills, learning new coding techniques, and building real-world projects. If
+                    you would like to get in contact with me, shoot me an email or a message through LinkedIn and let's chat!
+                </p>
+            </header>
+            <section class="language_section">
+                <h2>Languages & Frameworks</h2>
+                <ul class="language_list">
+                    <li class="language">
+                        <img src="media/images/htmlcsslogos.svg" alt="HTML5 & CSS3 Logos">
+                        <h3>HTML5/CSS3</h3>
+                        <p class="language_description">
+                            Two of the three core languages used for formatting and presenting content on the World Wide Web. 
+                            HTML5 was published by W3C in late 2014, and CSS3 is a collection of modules extending off of CSS2.
+                        </p>
+                        <h4>Frameworks and Technologies:</h4>
+                        <p class="language_frameworks">
+                            Bootstrap, SASS, LESS, SEO
+                        </p>
+                    </li>
+                    <li class="language">
+                        <img src="media/images/javascriptlogo.svg" alt="JavaScript Logo">
+                        <h3>JavaScript</h3>
+                        <p class="language_description">
+                            JavaScript is the last piece of the core web languages, used to dynamically render content on the web. 
+                            It is gaining increasing popularity in its use outside of client-side utilization, including server-side 
+                            technologies and runtime environments on desktop/mobile applications.
+                        </p>
+                        <h4>Frameworks and Technologies:</h4>
+                        <p class="language_frameworks">
+                            MEAN Stack (Mongoose.js, Express.js, AngularJS 1.X, Node.js), jQuery, Google Maps API, Google Analytics 
+                        </p>
+                    </li>
+                    <li class="language">
+                        <img src="media/images/pythonlogo.svg" alt="Python Logo">
+                        <h3>Python</h3>
+                        <p class="language_description">
+                            Python is a high-level programming language developed to emphasize readability and efficiency in statements. 
+                            It finds widespread use on the web, as well as in multiple scientific applications.
+                        </p>
+                        <h4>Frameworks and Technologies:</h4>
+                        <p class="language_frameworks">
+                            Django with MySQL, Flask
+                        </p>
+                    </li>
+                    <li class="language">
+                        <img src="media/images/csharplogo.svg" alt="C# Logo">
+                        <h3>C#</h3>
+                        <p class="language_description">
+                            C# is a powerful, multi-paradigm language developed my Microsoft. It was designed to be the next generation 
+                            of C++, incorporating the portability and speed of C++ but also providing better readability and newer language 
+                            technologies. 
+                        </p>
+                        <h4>Frameworks and Technologies:</h4>
+                        <p class="language_frameworks">
+                            ASP.NET Core, Unity game engine, Nancy
+                        </p>
+                    </li>
+                </ul>
+            </section>
         </section>
-        <section>
-            <h1>Projects</h1>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
+        <section class="project_section">
+            <h2>Projects</h2>
+            <ul class="project_list">
+                <li class="project">
+                    <h3>Stop Clickbait Brower Extension</h3>
+                    <p class="project_description">
+                        Stop Clickbait! is an open-source project to build a browser extension to fight clickbait on social 
+                        media, using HTML, CSS, and JavaScript on the Frontend and mostly PHP and JavaScript on the Backend. Clickbait is a technique that uses exaggerated or misleading headlines to pull users into 
+                        reading articles, often with the intent to push users through many pages to get to the heart of the 
+                        actual content. Because of the current model of web-based advertising, this brings in a lot of revenue
+                        for the website hosts without providing meaningful content to the users. Our extension will allow users 
+                        to flag and report these parasitic articles to allow for community-sourced curation of media. Expect a launch
+                        sometime in the second half of 2017!
+                    </p>
+                </li>
+                <li class="project">
+                    <h3>www.InterviewMath.com</h3>
+                    <p class="project_description">
+                        This website was built for a client to serve as a supplement to the book of the same name. It allows
+                        users to practice timing themselves against real-world math-based interview questions from the book. The 
+                        website uses JavaScript, HTML, and CSS, and includes jQuery, Google Analytics, and BootStrap as well.
+                    </p>
+                </li>
+                <li class="project">
+                    <h3>DojoLyfe</h3>
+                    <p class="project_description">
+                        DojoLyfe was the last project I worked on at the coding bootcamp that I attended. Working on a small 
+                        team in technologies we had never used before, we built a 2D RPG-style game in the Unity game engine using 
+                        C# in just under a week. 
+                    </p>
+                </li>
+                <li class="project">
+                    <h3>UptimeMap</h3>
+                    <p class="project_description">
+                        UptimeMap was my introduction to team-based coding projects. On a team of 6 people, we built a full stack 
+                        application that tracked the responsiveness of servers in different geographical locations. The application 
+                        was also our introduction to using version control in the form of git and GitHub, and was built using the 
+                        MEAN stack and Google Maps API.
+                    </p>
+                </li>
             </ul>
         </section>
-        <section>
-            <h1>Contact Me</h1>
-            <ul>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
-                <li>Resume Link</li>
+        <section class="contact_section">
+            <h2>Contact Me</h2>
+            <ul class="contact_list">
+                <li>
+                    <img src="media/images/githublogo.svg" alt="GitHub Logo">
+                    <h3>GitHub</h3>
+                </li>
+                <li>
+                    <img src="media/images/linkedinlogo.svg" alt="LinkedIn Logo">
+                    <h3>LinkedIn</h3>
+                </li>
+                <li>
+                    <h3>Resume</h3>
+                </li>
+                <li>
+                    <h3>Email</h3>
+                </li>
             </ul>
         </section>
     </main>
+    <footer class="page_footer">
+        
+    </footer>
 </body>
 </html>

@@ -15,3 +15,12 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 150px;
+    height: auto;
+}
+
+ul > li {
+	list-style: none;
+	display: block;
+}
