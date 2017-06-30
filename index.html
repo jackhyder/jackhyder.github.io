@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <title>Jack Hyder</title>
-    <meta name="description" content="This will be the smaller text on Google search results under your page. Make it under 140 characters.">
+    <meta name="description" content="Hi, my name is Jack Hyder. I am a web developer with a love for science and technology.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-control" content="public">
+    <link rel="stylesheet" type="text/css" href="media/bootstrap-carousel.css">
     <link rel="stylesheet" type="text/css" href="media/style.css">
     <link rel="icon" type="image/png" href="media/images/icon.png">
     <script src="javascript/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+    </script>
+    <script src="javascript/bootstrap-carousel.js"></script>
 </head>
 <body>
     <header class="page_header">
@@ -36,20 +40,25 @@
             <section class="language_section">
                 <h2>Languages & Frameworks</h2>
                 <ul class="language_list">
-                    <li class="language">
-                        <img src="media/images/htmlcsslogos.svg" alt="HTML5 & CSS3 Logos">
+                    <li class="language htmlcss">
+                        <a href="https://www.w3schools.com/" target="_blank">
+                            <img class="language_logo" src="media/images/htmlcsslogos.svg" alt="HTML5 & CSS3 Logos">
+                        </a>
                         <h3>HTML5/CSS3</h3>
                         <p class="language_description">
                             Two of the three core languages used for formatting and presenting content on the World Wide Web. 
-                            HTML5 was published by W3C in late 2014, and CSS3 is a collection of modules extending off of CSS2.
+                            HTML5 was published by the W3C in late 2014, and CSS3 is a collection of modules extending off of CSS2, 
+                            also maintained by the W3C.
                         </p>
                         <h4>Frameworks and Technologies:</h4>
                         <p class="language_frameworks">
                             Bootstrap, SASS, LESS, SEO
                         </p>
                     </li>
-                    <li class="language">
-                        <img src="media/images/javascriptlogo.svg" alt="JavaScript Logo">
+                    <li class="language javascript">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+                            <img class="language_logo" src="media/images/javascriptlogo.svg" alt="JavaScript Logo">
+                        </a>
                         <h3>JavaScript</h3>
                         <p class="language_description">
                             JavaScript is the last piece of the core web languages, used to dynamically render content on the web. 
@@ -61,20 +70,24 @@
                             MEAN Stack (Mongoose.js, Express.js, AngularJS 1.X, Node.js), jQuery, Google Maps API, Google Analytics 
                         </p>
                     </li>
-                    <li class="language">
-                        <img src="media/images/pythonlogo.svg" alt="Python Logo">
+                    <li class="language python">
+                        <a href="https://www.python.org/" target="_blank">
+                            <img class="language_logo" src="media/images/pythonlogo.svg" alt="Python Logo">
+                        </a>
                         <h3>Python</h3>
                         <p class="language_description">
                             Python is a high-level programming language developed to emphasize readability and efficiency in statements. 
-                            It finds widespread use on the web, as well as in multiple scientific applications.
+                            It finds widespread use on the web, machine-learning, and many other scientific applications.
                         </p>
                         <h4>Frameworks and Technologies:</h4>
                         <p class="language_frameworks">
-                            Django with MySQL, Flask
+                            Django + MySQL, Flask
                         </p>
                     </li>
-                    <li class="language">
-                        <img src="media/images/csharplogo.svg" alt="C# Logo">
+                    <li class="language csharp">
+                        <a href="https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework" target="_blank">
+                            <img class="language_logo" src="media/images/csharplogo.svg" alt="C# Logo">
+                        </a>
                         <h3>C#</h3>
                         <p class="language_description">
                             C# is a powerful, multi-paradigm language developed my Microsoft. It was designed to be the next generation 
@@ -83,20 +96,20 @@
                         </p>
                         <h4>Frameworks and Technologies:</h4>
                         <p class="language_frameworks">
-                            ASP.NET Core, Unity game engine, Nancy
+                            ASP.NET Core, Unity game engine, NancyFx
                         </p>
                     </li>
                 </ul>
             </section>
         </section>
-        <section class="project_section">
-            <h2>Projects</h2>
-            <ul class="project_list">
-                <li class="project">
+        <section class="portfolio_section">
+            <h2>Portfolio</h2>
+            <ul class="portfolio_list">
+                <li class="portfolio">
                     <h3>Stop Clickbait Brower Extension</h3>
-                    <p class="project_description">
-                        Stop Clickbait! is an open-source project to build a browser extension to fight clickbait on social 
-                        media, using HTML, CSS, and JavaScript on the Frontend and mostly PHP and JavaScript on the Backend. Clickbait is a technique that uses exaggerated or misleading headlines to pull users into 
+                    <p class="portfolio_description">
+                        Stop Clickbait! is an open-source portfolio to build a browser extension to fight clickbait on social 
+                        media, using HTML, CSS, and JavaScript on the frontend and mostly PHP and JavaScript on the backend. Clickbait is a technique that uses exaggerated or misleading headlines to pull users into 
                         reading articles, often with the intent to push users through many pages to get to the heart of the 
                         actual content. Because of the current model of web-based advertising, this brings in a lot of revenue
                         for the website hosts without providing meaningful content to the users. Our extension will allow users 
@@ -104,26 +117,26 @@
                         sometime in the second half of 2017!
                     </p>
                 </li>
-                <li class="project">
+                <li class="portfolio">
                     <h3>www.InterviewMath.com</h3>
-                    <p class="project_description">
+                    <p class="portfolio_description">
                         This website was built for a client to serve as a supplement to the book of the same name. It allows
                         users to practice timing themselves against real-world math-based interview questions from the book. The 
                         website uses JavaScript, HTML, and CSS, and includes jQuery, Google Analytics, and BootStrap as well.
                     </p>
                 </li>
-                <li class="project">
+                <li class="portfolio">
                     <h3>DojoLyfe</h3>
-                    <p class="project_description">
-                        DojoLyfe was the last project I worked on at the coding bootcamp that I attended. Working on a small 
+                    <p class="portfolio_description">
+                        DojoLyfe was the last portfolio I worked on at the coding bootcamp that I attended. Working on a small 
                         team in technologies we had never used before, we built a 2D RPG-style game in the Unity game engine using 
                         C# in just under a week. 
                     </p>
                 </li>
-                <li class="project">
+                <li class="portfolio">
                     <h3>UptimeMap</h3>
-                    <p class="project_description">
-                        UptimeMap was my introduction to team-based coding projects. On a team of 6 people, we built a full stack 
+                    <p class="portfolio_description">
+                        UptimeMap was my introduction to team-based coding portfolios. On a team of 6 people, we built a full stack 
                         application that tracked the responsiveness of servers in different geographical locations. The application 
                         was also our introduction to using version control in the form of git and GitHub, and was built using the 
                         MEAN stack and Google Maps API.
@@ -134,18 +147,20 @@
         <section class="contact_section">
             <h2>Contact Me</h2>
             <ul class="contact_list">
-                <li>
-                    <img src="media/images/githublogo.svg" alt="GitHub Logo">
+                <li class="contact">
+                    <img class="contact_logo" src="media/images/githublogo.svg" alt="GitHub Logo">
                     <h3>GitHub</h3>
                 </li>
-                <li>
-                    <img src="media/images/linkedinlogo.svg" alt="LinkedIn Logo">
+                <li class="contact">
+                    <img class="contact_logo" src="media/images/linkedinlogo.svg" alt="LinkedIn Logo">
                     <h3>LinkedIn</h3>
                 </li>
-                <li>
+                <li class="contact">
+                    <img class="contact_logo" src="media/images/resume.svg" alt="Resume Icon">
                     <h3>Resume</h3>
                 </li>
-                <li>
+                <li class="contact">
+                    <img class="contact_logo" src="media/images/email.svg" alt="Email Icon">
                     <h3>Email</h3>
                 </li>
             </ul>
