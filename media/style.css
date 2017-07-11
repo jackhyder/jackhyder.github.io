@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+h1, h2 {
+    color: white;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -59,20 +63,9 @@ ul {
 
 p {
     text-align: center;
-    color: #777777;
 }
 
 /*Page Header*/
-
-.page_header {
-    background-attachment: fixed;
-    background-image: url("images/europa.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    min-height: 600px;
-}
 
 .name {
     line-height: 600px;
@@ -80,15 +73,35 @@ p {
     vertical-align: middle;
 }
 
+/*Main*/
+
+.main {
+    background-attachment: fixed;
+    background-image: url("images/galaxy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
 /*About Section*/
 
 .about_me {
-    margin: 0 25% 0 25%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
 }
 
-.about_me p {
-    text-align: left;
+.summary {
     margin-top: 10px;
+    text-align: left;
+    background-color: white;
+    width: 700px;
+    padding-left: 20px;
+    padding-right: 5px;
+    border: 7px solid black;
+    border-radius: 25px;
 }
 
 .language {
@@ -99,10 +112,6 @@ p {
     height: 420px;
     margin: 5px;
     width: 450px;
-}
-
-.language img {
-    margin-top: 5px;
 }
 
 .language h3 {
@@ -141,26 +150,42 @@ p {
 
 .language_logo {
     height: 150px;
+    margin-top: 5px;
 }
 
-/*portfolio Section*/
+.language_section {
+    padding-bottom: 20px;
+}
+
+/*Portfolio Section*/
+
+.portfolio_section {
+    padding-bottom: 20px;
+}
 
 .portfolio {
     height: auto;
     width: 200px;
+    background-color: white;
+}
+
+.portfolio_img {
+    height: 150px;
+    width: 175px;
 }
 
 /*Contact Section*/
 
+.page_footer {
+    height: auto;
+    background-color: #598fb0;
+}
+
 .contact {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 
 .contact_logo {
-    height: 100px;
-}
-
-.contact_section {
-    background-color: #598fb0;
+    height: 50px;
 }
